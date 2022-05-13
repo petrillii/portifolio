@@ -1,0 +1,28 @@
+.pf{
+  &-bg{
+    height: 31.25rem;
+    background-color: #201335;
+  }
+  &-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 250px;
+  }
+  &-title{
+    font-size: 1.875rem;
+    color: white;
+  }
+  &-subtitle{
+    font-size: 1.5625rem;
+    color: white;
+  }
+  &-btn-start{
+    height: 2.5rem;
+    width: 8.75rem;
+    background: #FAF33E;
+    border: none;
+    color: rgba(0,0,0,.6);
+    border-radius: 30px;
+  }
+}

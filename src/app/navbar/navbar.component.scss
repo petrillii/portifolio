@@ -1,7 +1,10 @@
-
+@import 'src/_colors.scss';
 
 .pf{
   &-title{
     color: black;
+  }
+  &-spacer{
+    flex: 1 1 auto;
   }
 }

@@ -1,0 +1,66 @@
+.pf {
+  &-title {}
+
+  &-bg-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #201335;
+    height: 44px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+  }
+
+  &-btn-calc {
+    display: flex;
+    justify-content: center;
+  }
+
+  &-idade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &-number {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    margin-top: -20px;
+  }
+
+  &-number span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &-adicionar {
+    background-color: #201335;
+    padding: 4px;
+    border-radius: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+  }
+
+  &-adicionar:hover {
+    background-color: #ff3366;
+  }
+
+  &-sexoactive {
+    border-radius: 10px;
+    background-color: #ff3366;
+  }
+}
+
+.form-range {
+  width: 90%;
+}
+
+.form-range::-webkit-slider-thumb {
+  background: #ff3366;
+}

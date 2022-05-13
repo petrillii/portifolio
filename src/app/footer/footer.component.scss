@@ -1,0 +1,88 @@
+
+
+.exa {
+  &-arrow{
+    width:1.12rem;
+    height:0.96rem;
+    font-size: 1.1rem;
+  }
+  &-no-td{
+    text-decoration: none !important;
+  }
+  &-gotop {
+    cursor: pointer;
+    box-shadow: 0px 5px 16px rgb(34 35 36 / 20%);
+    color: green;
+    width:3.625rem;
+    height:3.625rem;
+    font-size:1.375rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    @media screen and (max-width: exa-breakpoint("md")) {
+      width:1.9375rem;
+      height:1.9375rem;
+      font-size:1rem;
+    }
+  }
+  &-link {
+    color: white;
+    text-decoration: none !important;
+    font-size: 1rem;
+    border-radius: 50%;
+    width: 2.25rem;
+    height: 2.25rem;
+    border: 1px solid white;
+  }
+  &-localizacao,
+  &-footer-title {
+    color: white;
+    font-size: 0.875rem;
+    font-style: normal;
+    line-height: 1.3125rem;
+    cursor: default;
+  }
+  &-localizacao {
+    font-weight: normal;
+  }
+
+  &-footer-title {
+    font-weight: bold;
+  }
+
+  &-link-list {
+    display: inline-block;
+    & a {
+      cursor: pointer;
+      display: inline-block;
+      margin-right: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+  }
+
+  &-links-uteis {
+    & > a {
+      font-size: 14px;
+      border: 0.0625rem solid white;
+      box-sizing: border-box;
+      border-radius: 2.5rem;
+      padding: 0.625rem 0.9375rem;
+      text-decoration: none;
+      color: white !important;
+      white-space: nowrap;
+      margin-right: 0.3125rem;
+      cursor: pointer;
+      // &:hover {
+      //   color: $exa-header-link-hover !important;
+      //   background-color: white;
+      // }
+    }
+  }
+
+  &-version {
+    color: white;
+    font-size: 0.625rem;
+  }
+}
